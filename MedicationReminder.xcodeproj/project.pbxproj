@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2E42A7291ABA2900DEC385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E42A6291ABA2900DEC385 /* AppDelegate.swift */; };
+		CB2E42A9291ABA2900DEC385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E42A8291ABA2900DEC385 /* SceneDelegate.swift */; };
+		CB2E42AB291ABA2900DEC385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2E42AA291ABA2900DEC385 /* ViewController.swift */; };
+		CB2E42AE291ABA2900DEC385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2E42AC291ABA2900DEC385 /* Main.storyboard */; };
+		CB2E42B3291ABA2A00DEC385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2E42B2291ABA2A00DEC385 /* Assets.xcassets */; };
+		CB2E42B6291ABA2A00DEC385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2E42B4291ABA2A00DEC385 /* LaunchScreen.storyboard */; };
+		CB3519252932E1EF00460F7F /* CareTakerMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3519242932E1EF00460F7F /* CareTakerMainPageViewController.swift */; };
+		CB3519272932E73100460F7F /* CareTakerMedicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3519262932E73100460F7F /* CareTakerMedicationListViewController.swift */; };
+		CB3519292932EBE000460F7F /* CareTakerMedicationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3519282932EBE000460F7F /* CareTakerMedicationInfoViewController.swift */; };
+		CB35192B293308DB00460F7F /* CareTakerPatientManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35192A293308DB00460F7F /* CareTakerPatientManagerViewController.swift */; };
+		CB412F4F2930403400B70763 /* CareTakerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB412F4E2930403400B70763 /* CareTakerLoginViewController.swift */; };
+		CB412F5329306DCC00B70763 /* PatientPharmacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB412F5229306DCC00B70763 /* PatientPharmacyViewController.swift */; };
+		CB412F55293075C900B70763 /* CareTakerPatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB412F54293075C900B70763 /* CareTakerPatientListViewController.swift */; };
+		CB490EDB29354E4200D75D2D /* CareTakerAssignMedicationToPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB490EDA29354E4200D75D2D /* CareTakerAssignMedicationToPatientViewController.swift */; };
+		CB490EDF293551A200D75D2D /* MedicationReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB490EDD293551A200D75D2D /* MedicationReminder.xcdatamodeld */; };
+		CB498E352938127E007570C8 /* CareTakerPatientMedicationHistorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB498E342938127E007570C8 /* CareTakerPatientMedicationHistorViewController.swift */; };
+		CB498E3729381298007570C8 /* CareTakerSpecificMedicationHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB498E3629381298007570C8 /* CareTakerSpecificMedicationHistoryViewController.swift */; };
+		CB91C24329299D4B002227FB /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91C24229299D4B002227FB /* LoginPageViewController.swift */; };
+		CB91C24529299FB7002227FB /* PatientRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91C24429299FB7002227FB /* PatientRegistrationViewController.swift */; };
+		CB91C2472929A6FB002227FB /* AddNewMedicationiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91C2462929A6FB002227FB /* AddNewMedicationiewController.swift */; };
+		CB9A02612932B8730046B8C0 /* CareTakerPatientMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9A02602932B8730046B8C0 /* CareTakerPatientMedicationViewController.swift */; };
+		CBC3BEC6293598B600B02259 /* PatientMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3BEC5293598B600B02259 /* PatientMenuViewController.swift */; };
+		CBC3BEC8293599C300B02259 /* PatientDailyMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC3BEC7293599C300B02259 /* PatientDailyMedicationViewController.swift */; };
+		CBEB8F972939BE3600BBF659 /* final in Resources */ = {isa = PBXBuildFile; fileRef = CBEB8F962939BE3600BBF659 /* final */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB2E42A3291ABA2900DEC385 /* MedicationReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicationReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2E42A6291ABA2900DEC385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB2E42A8291ABA2900DEC385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB2E42AA291ABA2900DEC385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB2E42AD291ABA2900DEC385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB2E42B2291ABA2A00DEC385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2E42B5291ABA2A00DEC385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB2E42B7291ABA2A00DEC385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB3519242932E1EF00460F7F /* CareTakerMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerMainPageViewController.swift; sourceTree = "<group>"; };
+		CB3519262932E73100460F7F /* CareTakerMedicationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerMedicationListViewController.swift; sourceTree = "<group>"; };
+		CB3519282932EBE000460F7F /* CareTakerMedicationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerMedicationInfoViewController.swift; sourceTree = "<group>"; };
+		CB35192A293308DB00460F7F /* CareTakerPatientManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerPatientManagerViewController.swift; sourceTree = "<group>"; };
+		CB412F4E2930403400B70763 /* CareTakerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerLoginViewController.swift; sourceTree = "<group>"; };
+		CB412F5229306DCC00B70763 /* PatientPharmacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientPharmacyViewController.swift; sourceTree = "<group>"; };
+		CB412F54293075C900B70763 /* CareTakerPatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerPatientListViewController.swift; sourceTree = "<group>"; };
+		CB490EDA29354E4200D75D2D /* CareTakerAssignMedicationToPatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerAssignMedicationToPatientViewController.swift; sourceTree = "<group>"; };
+		CB490EDE293551A200D75D2D /* MedicationReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedicationReminder.xcdatamodel; sourceTree = "<group>"; };
+		CB498E342938127E007570C8 /* CareTakerPatientMedicationHistorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerPatientMedicationHistorViewController.swift; sourceTree = "<group>"; };
+		CB498E3629381298007570C8 /* CareTakerSpecificMedicationHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerSpecificMedicationHistoryViewController.swift; sourceTree = "<group>"; };
+		CB91C24229299D4B002227FB /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		CB91C24429299FB7002227FB /* PatientRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientRegistrationViewController.swift; sourceTree = "<group>"; };
+		CB91C2462929A6FB002227FB /* AddNewMedicationiewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMedicationiewController.swift; sourceTree = "<group>"; };
+		CB9A02602932B8730046B8C0 /* CareTakerPatientMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareTakerPatientMedicationViewController.swift; sourceTree = "<group>"; };
+		CBC3BEC5293598B600B02259 /* PatientMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientMenuViewController.swift; sourceTree = "<group>"; };
+		CBC3BEC7293599C300B02259 /* PatientDailyMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientDailyMedicationViewController.swift; sourceTree = "<group>"; };
+		CBEB8F962939BE3600BBF659 /* final */ = {isa = PBXFileReference; lastKnownFileType = folder; path = final; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB2E42A0291ABA2900DEC385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB2E429A291ABA2900DEC385 = {
+			isa = PBXGroup;
+			children = (
+				CB2E42A5291ABA2900DEC385 /* MedicationReminder */,
+				CB2E42A4291ABA2900DEC385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB2E42A4291ABA2900DEC385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E42A3291ABA2900DEC385 /* MedicationReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB2E42A5291ABA2900DEC385 /* MedicationReminder */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB8F962939BE3600BBF659 /* final */,
+				CB2E42B7291ABA2A00DEC385 /* Info.plist */,
+				CB490EDD293551A200D75D2D /* MedicationReminder.xcdatamodeld */,
+				CBCF07CF2930290F0022BFA7 /* GeneralXcodeFiles */,
+				CB412F4D29303EC100B70763 /* LoginViewControllers */,
+				CBCF07D2293029940022BFA7 /* CareTakerControllers */,
+				CBCF07CE293028F50022BFA7 /* PatientViewControllers */,
+			);
+			path = MedicationReminder;
+			sourceTree = "<group>";
+		};
+		CB412F4D29303EC100B70763 /* LoginViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB91C24229299D4B002227FB /* LoginPageViewController.swift */,
+				CB412F4E2930403400B70763 /* CareTakerLoginViewController.swift */,
+			);
+			path = LoginViewControllers;
+			sourceTree = "<group>";
+		};
+		CBCF07CE293028F50022BFA7 /* PatientViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB91C24429299FB7002227FB /* PatientRegistrationViewController.swift */,
+				CB412F5229306DCC00B70763 /* PatientPharmacyViewController.swift */,
+				CBC3BEC5293598B600B02259 /* PatientMenuViewController.swift */,
+				CBC3BEC7293599C300B02259 /* PatientDailyMedicationViewController.swift */,
+			);
+			path = PatientViewControllers;
+			sourceTree = "<group>";
+		};
+		CBCF07CF2930290F0022BFA7 /* GeneralXcodeFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB2E42AA291ABA2900DEC385 /* ViewController.swift */,
+				CB2E42AC291ABA2900DEC385 /* Main.storyboard */,
+				CB2E42B4291ABA2A00DEC385 /* LaunchScreen.storyboard */,
+				CB2E42B2291ABA2A00DEC385 /* Assets.xcassets */,
+				CB2E42A6291ABA2900DEC385 /* AppDelegate.swift */,
+				CB2E42A8291ABA2900DEC385 /* SceneDelegate.swift */,
+			);
+			path = GeneralXcodeFiles;
+			sourceTree = "<group>";
+		};
+		CBCF07D2293029940022BFA7 /* CareTakerControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB91C2462929A6FB002227FB /* AddNewMedicationiewController.swift */,
+				CB412F54293075C900B70763 /* CareTakerPatientListViewController.swift */,
+				CB9A02602932B8730046B8C0 /* CareTakerPatientMedicationViewController.swift */,
+				CB3519242932E1EF00460F7F /* CareTakerMainPageViewController.swift */,
+				CB3519262932E73100460F7F /* CareTakerMedicationListViewController.swift */,
+				CB3519282932EBE000460F7F /* CareTakerMedicationInfoViewController.swift */,
+				CB35192A293308DB00460F7F /* CareTakerPatientManagerViewController.swift */,
+				CB490EDA29354E4200D75D2D /* CareTakerAssignMedicationToPatientViewController.swift */,
+				CB498E342938127E007570C8 /* CareTakerPatientMedicationHistorViewController.swift */,
+				CB498E3629381298007570C8 /* CareTakerSpecificMedicationHistoryViewController.swift */,
+			);
+			path = CareTakerControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB2E42A2291ABA2900DEC385 /* MedicationReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB2E42BA291ABA2A00DEC385 /* Build configuration list for PBXNativeTarget "MedicationReminder" */;
+			buildPhases = (
+				CB2E429F291ABA2900DEC385 /* Sources */,
+				CB2E42A0291ABA2900DEC385 /* Frameworks */,
+				CB2E42A1291ABA2900DEC385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicationReminder;
+			productName = MedicationReminder;
+			productReference = CB2E42A3291ABA2900DEC385 /* MedicationReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB2E429B291ABA2900DEC385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CB2E42A2291ABA2900DEC385 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CB2E429E291ABA2900DEC385 /* Build configuration list for PBXProject "MedicationReminder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB2E429A291ABA2900DEC385;
+			productRefGroup = CB2E42A4291ABA2900DEC385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB2E42A2291ABA2900DEC385 /* MedicationReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB2E42A1291ABA2900DEC385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2E42B6291ABA2A00DEC385 /* LaunchScreen.storyboard in Resources */,
+				CB2E42B3291ABA2A00DEC385 /* Assets.xcassets in Resources */,
+				CB2E42AE291ABA2900DEC385 /* Main.storyboard in Resources */,
+				CBEB8F972939BE3600BBF659 /* final in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB2E429F291ABA2900DEC385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB490EDF293551A200D75D2D /* MedicationReminder.xcdatamodeld in Sources */,
+				CB3519292932EBE000460F7F /* CareTakerMedicationInfoViewController.swift in Sources */,
+				CB3519272932E73100460F7F /* CareTakerMedicationListViewController.swift in Sources */,
+				CBC3BEC8293599C300B02259 /* PatientDailyMedicationViewController.swift in Sources */,
+				CB412F55293075C900B70763 /* CareTakerPatientListViewController.swift in Sources */,
+				CB490EDB29354E4200D75D2D /* CareTakerAssignMedicationToPatientViewController.swift in Sources */,
+				CB9A02612932B8730046B8C0 /* CareTakerPatientMedicationViewController.swift in Sources */,
+				CB2E42AB291ABA2900DEC385 /* ViewController.swift in Sources */,
+				CB2E42A7291ABA2900DEC385 /* AppDelegate.swift in Sources */,
+				CBC3BEC6293598B600B02259 /* PatientMenuViewController.swift in Sources */,
+				CB412F4F2930403400B70763 /* CareTakerLoginViewController.swift in Sources */,
+				CB91C24329299D4B002227FB /* LoginPageViewController.swift in Sources */,
+				CB91C24529299FB7002227FB /* PatientRegistrationViewController.swift in Sources */,
+				CB35192B293308DB00460F7F /* CareTakerPatientManagerViewController.swift in Sources */,
+				CB2E42A9291ABA2900DEC385 /* SceneDelegate.swift in Sources */,
+				CB3519252932E1EF00460F7F /* CareTakerMainPageViewController.swift in Sources */,
+				CB498E352938127E007570C8 /* CareTakerPatientMedicationHistorViewController.swift in Sources */,
+				CB412F5329306DCC00B70763 /* PatientPharmacyViewController.swift in Sources */,
+				CB91C2472929A6FB002227FB /* AddNewMedicationiewController.swift in Sources */,
+				CB498E3729381298007570C8 /* CareTakerSpecificMedicationHistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB2E42AC291ABA2900DEC385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2E42AD291ABA2900DEC385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2E42B4291ABA2A00DEC385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2E42B5291ABA2A00DEC385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB2E42B8291ABA2A00DEC385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB2E42B9291ABA2A00DEC385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB2E42BB291ABA2A00DEC385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PLV8WGVA3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedicationReminder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.www.MedicationReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB2E42BC291ABA2A00DEC385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PLV8WGVA3D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedicationReminder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.www.MedicationReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB2E429E291ABA2900DEC385 /* Build configuration list for PBXProject "MedicationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2E42B8291ABA2A00DEC385 /* Debug */,
+				CB2E42B9291ABA2A00DEC385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB2E42BA291ABA2A00DEC385 /* Build configuration list for PBXNativeTarget "MedicationReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB2E42BB291ABA2A00DEC385 /* Debug */,
+				CB2E42BC291ABA2A00DEC385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB490EDD293551A200D75D2D /* MedicationReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB490EDE293551A200D75D2D /* MedicationReminder.xcdatamodel */,
+			);
+			currentVersion = CB490EDE293551A200D75D2D /* MedicationReminder.xcdatamodel */;
+			name = MedicationReminder.xcdatamodeld;
+			path = PatientViewControllers/MedicationReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB2E429B291ABA2900DEC385 /* Project object */;
+}

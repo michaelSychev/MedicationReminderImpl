@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Medication" representedClassName="Medication" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="imprint" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="strength" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES" codeGenerationType="class">
+        <attribute name="adress" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Prescribe" representedClassName="Prescribe" syncable="YES" codeGenerationType="class">
+        <attribute name="imprint" optional="YES" attributeType="String"/>
+        <attribute name="isTaken" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="timeTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Medication" positionX="-178.1875" positionY="21.22265625" width="128" height="103"/>
+        <element name="Patient" positionX="700.3515625" positionY="-3.8828125" width="128" height="103"/>
+        <element name="Prescribe" positionX="228.77734375" positionY="31.6328125" width="128" height="103"/>
+    </elements>
+</model>

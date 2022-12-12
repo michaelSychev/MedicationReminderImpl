@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G83" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Medication" representedClassName="Medication" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="imprint" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="strength" optional="YES" attributeType="String"/>
+        <relationship name="medicationToPrescribe" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prescribe" inverseName="prescribeToMedication" inverseEntity="Prescribe"/>
+    </entity>
+    <entity name="Patient" representedClassName="Patient" syncable="YES" codeGenerationType="class">
+        <attribute name="adress" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="patientToPrescribe" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Prescribe" inverseName="prescribeToPatient" inverseEntity="Prescribe"/>
+    </entity>
+    <entity name="Prescribe" representedClassName="Prescribe" syncable="YES" codeGenerationType="class">
+        <attribute name="isTaken" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <relationship name="prescribeToMedication" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Medication" inverseName="medicationToPrescribe" inverseEntity="Medication"/>
+        <relationship name="prescribeToPatient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Patient" inverseName="patientToPrescribe" inverseEntity="Patient"/>
+    </entity>
+    <elements>
+        <element name="Medication" positionX="-409.640625" positionY="6.77734375" width="128" height="104"/>
+        <element name="Patient" positionX="119.140625" positionY="19.15234375" width="128" height="104"/>
+        <element name="Prescribe" positionX="-143.98828125" positionY="50.75390625" width="128" height="74"/>
+    </elements>
+</model>
